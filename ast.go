@@ -22,8 +22,10 @@ func (*BoolLit) node()                     {}
 func (*Call) node()                        {}
 func (*CaseBlock) node()                   {}
 func (*CaseExpr) node()                    {}
+func (*CTE) node()                         {}
 func (*CastExpr) node()                    {}
 func (*CheckConstraint) node()             {}
+func (*CollationClause) node()             {}
 func (*CollateConstraint) node()           {}
 func (*CollateExpr) node()                 {}
 func (*ColumnDefinition) node()            {}
